@@ -1,7 +1,8 @@
 # Environmental remote sensing data processing 
-<p>MOPAR is an environmental research project focused on primary production analysis in the ocean. This README provides an overview of the project, its objectives, and key components.
-The algorithms and plots in this repository were developed by Manurov Rustam. The plots were composed using Python's packages (PyGMT, Seaborn) and Photoshop.
-This repository stores certificates in Python, Data Analysis, and Data Science, demonstrating my expertise in these fields.</p>
+<p>MOPAR is an environmental research project focused on primary production analysis in the ocean. This README provides an overview of the project, its objectives, and key components.</p>
+
+* The algorithms and plots in this repository were developed by Manurov Rustam. The plots were composed using Python's packages (PyGMT, Seaborn) and Photoshop.
+* This repository stores certificates in Python, Data Analysis, and Data Science, demonstrating my expertise in these fields.
 
 ### Project Overview
 <p>MOPAR aims to analyze primary production in the ocean using a combination of in-situ data and satellite observations. The project comprises primary algorithms, each with multiple variations, designed to collect, process, compare data, and estimate Primary Production over 2 decades. These algorithms help obtain valuable insights into primary production and its geographical distribution.</p>
