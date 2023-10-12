@@ -9,7 +9,7 @@
 
 
 ### Algorithms
-#### <b>Algorithm 1:</b> **[In-Situ Data Integration](https://github.com/9Di/environmental_data_algorithms/blob/main/Algorithms/Point_PP.py)**.<br>
+#### <b>Algorithm 1:</b> **[In-Situ Data Integration](https://github.com/9Di/environmental_data_algorithms/blob/main/Algorithms/Point_PP.py)**.
 * The first algorithm gathers in-situ data of primary production values.
 * Utilizes satellite data collected over the years to obtain geographical parameters.
 * Compares in-situ and satellite-derived values to assess primary production variations.<br>
@@ -42,12 +42,12 @@
 <b>Figure 3.</b> Data distibution analysing.
 <br>
 <br>
-<br>
 #### <b>Algorithm 2:</b> **[Regional Primary Production Estimation](https://github.com/9Di/environmental_data_algorithms/blob/main/Algorithms/Area_PP.py)**.<br>
 * The second algorithm utilizes parameters that have been validated as effective in the first algorithm.
 * It calculates geographical data for primary production (PP) across a span of two decades.
 * The algorithm generates tables with approximately 400,000 bins to estimate monthly PP values for 1998-2022.
 * It calculates the sum of PP values and obtains monthly mean values, allowing for regional primary production estimation.
+<br>
 
 ### Area PP calculation with the most suitable model
 The 'Area_PP.py' algorithm were used to calculate the sum and monthly mean values of Primary Production monthly over 2 decades (1998 - 2022) using Copernicus, Hermes, Nasa remote sensing data. Basically, this code is a successor of 'Point_PP.py' algorithm. As we achived the model variations passed through the filter using the 'Point_PP.py' file, we were able to use those variations to calculate the sum and monthly mean values of chlorophyll-a Primary Production (PP) filtered by the area of interest. In our case, we had an option to digitalize the Norway sea to store the coordinates of the border of the sea. 
@@ -78,6 +78,12 @@ The 'Area_PP.py' algorithm were used to calculate the sum and monthly mean value
 <b>Figure 5.</b> The graph illustrates the processed velocity data and spectra for every velocity component by FFT for one bin for the main sensor. The bin is emphasized on the plot with the whole signal as a horizontal line.<br>
 <br>
 <br>
+# Certification
+**[Data Scientist career track](/Certificates/Data_Scientist.pdf)**<br>
+**[Intermediate SQL](/Certificates/Intermediate_SQL.pdf)**<br>
+**[Basic SQL](/Certificates/Intro_SQL.pdf)**<br>
+**[GIT](/Certificates/Git.pdf)**<br>
+**[Climate ocean school](/Certificates/Climate%20and%20ocean%20processes.pdf)**<br>
 # Contact information
 ### My contacts
 * <b>e-mail: </b> manurovrus@gmail.com
