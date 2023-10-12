@@ -24,15 +24,13 @@
 * Use of Gaussian or Linear law in calculation.
 * Spectra information choices: mean spectra of chlorophyll and spectra data obtained during cruises (optional).
 * Depth variations for calculation (2 options).
-</p>
-
 
 
 
 ### Model variations establishment using local in-situ data
 <p>The 'Point_PP.py' algorithm were composed in order to find the best suited model based on the correlation with in-situ data and statistical parameters (RMSD, BIAS, normalized values, Pearson correlation coefficient, standard deviation). As a result, we were able to filter the output by necessary statistical values in order to highlight the most suitable model. The algorithm takes the following parameters as an input: year and month of interest, CHL-a satellite data level, Photosynthetically avaliable radiation satellite data level, Gaussian equiation involvment in the calculation, type of spectra data, 2 versions of depth either based on Gaussian or Linear law.</p>
 
-![Map!](/Plots/PyGMT_map.PNG)
+![Map!](/Plots/PyGMT_map.PNG)<br>
 <b>Figure 1.</b> Schematic image of the area of interest and the circulation patterns: East Greenland, West Spitsbergen, Norwegian Atlantic, Return Atlantic.
 
 ![Model variations!](/Plots/Models_variations.PNG)
