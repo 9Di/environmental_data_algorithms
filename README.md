@@ -1,7 +1,8 @@
 # Environmental remote sensing data processing 
-<p>MOPAR is an environmental research project focused on primary production analysis in the ocean. This README provides an overview of the project, its objectives, and key components.
-The algorithms and code in this repository were developed by Manurov Rustam. The plots were composed using Python's packages (PyGMT, Seaborn) and Photoshop.
-This repository stores certificates in Python, Data Analysis, and Data Science, demonstrating my expertise in these fields.</p>
+<p>MOPAR is an environmental research project focused on primary production analysis in the ocean. This README provides an overview of the project, its objectives, and key components.</p>
+
+* The algorithms and plots in this repository were developed by Manurov Rustam. The plots were composed using Python's packages (PyGMT, Seaborn) and Photoshop.
+* This repository stores certificates in Python, Data Analysis, and Data Science, demonstrating my expertise in these fields.
 
 ### Project Overview
 <p>MOPAR aims to analyze primary production in the ocean using a combination of in-situ data and satellite observations. The project comprises primary algorithms, each with multiple variations, designed to collect, process, compare data, and estimate Primary Production over 2 decades. These algorithms help obtain valuable insights into primary production and its geographical distribution.</p>
@@ -76,6 +77,15 @@ The 'Area_PP.py' algorithm were used to calculate the sum and monthly mean value
 * The plots display the entire signal as a reference and emphasize the current bin with a horizontal line.
 
 ![TKE Calculation!](/Plots/TKE.png)
-<b>Figure 5.</b> The graph illustrates the processed velocity data and spectra for every velocity component by FFT for one bin for the main sensor. The bin is emphasized on the plot with the whole signal as a horizontal line.
-
+<b>Figure 5.</b> The graph illustrates the processed velocity data and spectra for every velocity component by FFT for one bin for the main sensor. The bin is emphasized on the plot with the whole signal as a horizontal line.<br>
+<br>
+<br>
+# Contact information
+### My contacts
+* <b>e-mail: </b> manurovrus@gmail.com
+* <b>GitHub: </b> https://github.com/9Di
+* <b>Phone number: </b> +48 506945010 / +49 152 06049353
+### References 
+* <b> Dr. Alexandra Cherkasheva: </b> acherkasheva@iopan.pl
+* <b> Prof. Piotr Kowalczuk : </b> piotr@iopan.pl
    
