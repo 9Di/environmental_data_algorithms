@@ -76,6 +76,15 @@ The 'Area_PP.py' algorithm were used to calculate the sum and monthly mean value
 * The plots display the entire signal as a reference and emphasize the current bin with a horizontal line.
 
 ![TKE Calculation!](/Plots/TKE.png)
-<b>Figure 5.</b> The graph illustrates the processed velocity data and spectra for every velocity component by FFT for one bin for the main sensor. The bin is emphasized on the plot with the whole signal as a horizontal line.
-
+<b>Figure 5.</b> The graph illustrates the processed velocity data and spectra for every velocity component by FFT for one bin for the main sensor. The bin is emphasized on the plot with the whole signal as a horizontal line.<br>
+<br>
+<br>
+# Contact information
+### My contacts
+* <b>e-mail: </b> manurovrus@gmail.com
+* <b>GitHub: </b> https://github.com/9Di
+* <b>Phone number: </b> +48 506945010 / +49 152 06049353
+### References 
+* <b> Dr. Alexandra Cherkasheva: </b> acherkasheva@iopan.pl
+* <b> Prof. Piotr Kowalczuk : </b> piotr@iopan.pl
    
