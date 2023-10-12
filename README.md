@@ -75,4 +75,7 @@ The 'Area_PP.py' algorithm were used to calculate the sum and monthly mean value
 * These plots visualize log-scaled spectra for each component of velocity.
 * The plots display the entire signal as a reference and emphasize the current bin with a horizontal line.
 
-The 'Spectra_bin.py' algorithm works with CO2 exchange data. It takes the data from 2 sensors (master sensor in the actual point, slave sensor is near the area), which have measured x,y,z components of velocities and pressure. The algorithm synchronizes both sensors, estimates the number of time bins and divides data arrays into several bins (depending on how many there are according to the records), calculates the value of Turbulence Kinetic Energy (TKE) for both sensors in every bin, as well as conducts the fast fourier transform (FFT) in order to tranform the area into spectra field. Working with the spectra we're able to find the area with the right tangent in order to calculate the rate dissipation. The output of the algorithm is a bin-by-bin sequence of plots sorted by the sensor, visualizing log-scaled spectra for every component of velocity, showing the whole signal as a reference and emphasizing the current bin in there with a horizontal line.    
+![TKE Calculation!](/Plots/TKE.png)
+<b>Figure 5.</b> The graph illustrates the processed velocity data and spectra for every velocity component by FFT for one bin for the main sensor. The bin is emphasized on the plot with the whole signal as a horizontal line.
+
+   
