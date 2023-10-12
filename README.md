@@ -59,4 +59,20 @@ The 'Area_PP.py' algorithm were used to calculate the sum and monthly mean value
 <br>
 <br>
 ### CO2 exchange variability using Turbulence Kinetic Energy and Dissipation Rate
+#### <b>Algorithm 3:</b> **[Synchronization and Analysis of CO2 Exchange Sensors](https://github.com/9Di/environmental_data_algorithms/blob/main/Algorithms/Spectra_bin.py)**.<br>
+* The third algorithm is an example from a related project focused on CO2 exchange in the context of ocean research.
+* This algorithm takes the names of two sensors as arguments: the main sensor and the slave sensor. These sensors measure components of speed, pressure, and time while floating on the sea. The main sensor measures these values within a chamber to avoid turbulence, while the slave sensor measures them outside the chamber.
+
+<b>Algorithm Process:</b>
+* Synchronizes data from both sensors to ensure consistent time alignment.
+* Estimates the number of time bins and divides data arrays into several bins according to the recorded data.
+* Calculates the Turbulence Kinetic Energy (TKE) for both sensors in each bin.
+* Conducts a fast Fourier transform (FFT) on the data to transform it into a spectra field.
+* Analyzes the spectra to determine the area with the right tangent, enabling the calculation of the rate of dissipation.
+
+<b>Output:</b>
+* The algorithm generates a sequence of plots, organized by the sensor.
+* These plots visualize log-scaled spectra for each component of velocity.
+* The plots display the entire signal as a reference and emphasize the current bin with a horizontal line.
+
 The 'Spectra_bin.py' algorithm works with CO2 exchange data. It takes the data from 2 sensors (master sensor in the actual point, slave sensor is near the area), which have measured x,y,z components of velocities and pressure. The algorithm synchronizes both sensors, estimates the number of time bins and divides data arrays into several bins (depending on how many there are according to the records), calculates the value of Turbulence Kinetic Energy (TKE) for both sensors in every bin, as well as conducts the fast fourier transform (FFT) in order to tranform the area into spectra field. Working with the spectra we're able to find the area with the right tangent in order to calculate the rate dissipation. The output of the algorithm is a bin-by-bin sequence of plots sorted by the sensor, visualizing log-scaled spectra for every component of velocity, showing the whole signal as a reference and emphasizing the current bin in there with a horizontal line.    
