@@ -7,7 +7,6 @@
 ### Project Overview
 <p>MOPAR aims to analyze primary production in the ocean using a combination of in-situ data and satellite observations. The project comprises primary algorithms, each with multiple variations, designed to collect, process, compare data, and estimate Primary Production over 2 decades. These algorithms help obtain valuable insights into primary production and its geographical distribution.</p>
 
-
 ### Algorithms
 #### <b>Algorithm 1:</b> **[In-Situ Data Integration](https://github.com/9Di/environmental_data_algorithms/blob/main/Algorithms/Point_PP.py)**.
 * The first algorithm gathers in-situ data of primary production values.
@@ -25,8 +24,6 @@
 * Spectra information choices: mean spectra of chlorophyll and spectra data obtained during cruises (optional).
 * Depth variations for calculation (2 options).
 
-
-
 ### Model variations establishment using local in-situ data
 <p>The 'Point_PP.py' algorithm were composed in order to find the best suited model based on the correlation with in-situ data and statistical parameters (RMSD, BIAS, normalized values, Pearson correlation coefficient, standard deviation). As a result, we were able to filter the output by necessary statistical values in order to highlight the most suitable model. The algorithm takes the following parameters as an input: year and month of interest, CHL-a satellite data level, Photosynthetically avaliable radiation satellite data level, Gaussian equiation involvment in the calculation, type of spectra data, 2 versions of depth either based on Gaussian or Linear law.</p>
 
@@ -42,12 +39,11 @@
 <b>Figure 3.</b> Data distibution analysing.
 <br>
 <br>
-#### <b>Algorithm 2:</b> **[Regional Primary Production Estimation](https://github.com/9Di/environmental_data_algorithms/blob/main/Algorithms/Area_PP.py)**.<br>
+#### <b>Algorithm 2:</b> **[Regional Primary Production Estimation](https://github.com/9Di/environmental_data_algorithms/blob/main/Algorithms/Area_PP.py)**.
 * The second algorithm utilizes parameters that have been validated as effective in the first algorithm.
 * It calculates geographical data for primary production (PP) across a span of two decades.
 * The algorithm generates tables with approximately 400,000 bins to estimate monthly PP values for 1998-2022.
 * It calculates the sum of PP values and obtains monthly mean values, allowing for regional primary production estimation.
-<br>
 
 ### Area PP calculation with the most suitable model
 The 'Area_PP.py' algorithm were used to calculate the sum and monthly mean values of Primary Production monthly over 2 decades (1998 - 2022) using Copernicus, Hermes, Nasa remote sensing data. Basically, this code is a successor of 'Point_PP.py' algorithm. As we achived the model variations passed through the filter using the 'Point_PP.py' file, we were able to use those variations to calculate the sum and monthly mean values of chlorophyll-a Primary Production (PP) filtered by the area of interest. In our case, we had an option to digitalize the Norway sea to store the coordinates of the border of the sea. 
@@ -55,10 +51,8 @@ The 'Area_PP.py' algorithm were used to calculate the sum and monthly mean value
 ![Monthly Mean PP!](/Plots/Monthly_mean.JPG)
 <b>Figure 4.</b> Monthly primary production for 1998-2022.
 <br>
-<br>
-<br>
 ### CO2 exchange variability using Turbulence Kinetic Energy and Dissipation Rate
-#### <b>Algorithm 3:</b> **[Synchronization and Analysis of CO2 Exchange Sensors](https://github.com/9Di/environmental_data_algorithms/blob/main/Algorithms/Spectra_bin.py)**.<br>
+#### <b>Algorithm 3:</b> **[Synchronization and Analysis of CO2 Exchange Sensors](https://github.com/9Di/environmental_data_algorithms/blob/main/Algorithms/Spectra_bin.py)**.
 * The third algorithm is an example from a related project focused on CO2 exchange in the context of ocean research.
 * This algorithm takes the names of two sensors as arguments: the main sensor and the slave sensor. These sensors measure components of speed, pressure, and time while floating on the sea. The main sensor measures these values within a chamber to avoid turbulence, while the slave sensor measures them outside the chamber.
 
