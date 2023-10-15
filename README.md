@@ -73,11 +73,12 @@ The 'Area_PP.py' algorithm were used to calculate the sum and monthly mean value
 <br>
 <br>
 # Certification
-**[Data Scientist career track](/Certificates/Data_Scientist.pdf)**<br>
+**[Python Data Scientist Career Track](/Certificates/Data_Scientist.pdf)**<br>
 **[Intermediate SQL](/Certificates/Intermediate_SQL.pdf)**<br>
+**[Joining Data in SQL](/Certificates/Joining_SQL.pdf)**<br>
 **[Basic SQL](/Certificates/Intro_SQL.pdf)**<br>
 **[GIT](/Certificates/Git.pdf)**<br>
-**[Climate ocean school](/Certificates/Climate%20and%20ocean%20processes.pdf)**<br>
+**[Climate Ocean School](/Certificates/Climate%20and%20ocean%20processes.pdf)**<br>
 # Contact information
 ### My contacts
 * <b>e-mail: </b> manurovrus@gmail.com
