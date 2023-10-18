@@ -76,6 +76,7 @@ The 'Area_PP.py' algorithm were used to calculate the sum and monthly mean value
 **[Python Data Scientist Career Track](/Certificates/Data_Scientist.pdf)**<br>
 **[Intermediate SQL](/Certificates/Intermediate_SQL.pdf)**<br>
 **[Functions for Manipulating Data in PostgreSQL](/Certificates/Functions%20for%20Manipulating%20Data%20in%20PostgreSQL.pdf)**<br>
+**[Exploratory Data Analysis in SQL](/Certificates/Exploratory%20Data%20Analysis%20in%20SQL.pdf)**<br>
 **[PostgreSQL Summary Stats and Window functions](/Certificates/PostgreSQL%20Summary%20Stats%20and%20Window%20functions.pdf)**<br>
 **[Data Manipulation in SQL](/Certificates/Data_Manipulation_SQL.pdf)**<br>
 **[Joining Data in SQL](/Certificates/Joining_SQL.pdf)**<br>
