@@ -75,6 +75,8 @@ The 'Area_PP.py' algorithm were used to calculate the sum and monthly mean value
 # Certification
 **[Python Data Scientist Career Track](/Certificates/Data_Scientist.pdf)**<br>
 **[SQL Data Analyst Career Track](/Certificates/Data_Analyst_in_SQL.pdf)**<br>
+**[Data Analyst in Power BI](/Certificates/Data%20Analyst%20in%20Power%20BI.pdf)**<br>
+
 **[Functions for Manipulating Data in PostgreSQL](/Certificates/Functions%20for%20Manipulating%20Data%20in%20PostgreSQL.pdf)**<br>
 **[Data-Driven Decision Making in SQL](/Certificates/Data-Driven%20Decision%20Making%20in%20SQL.pdf)**<br>
 **[Exploratory Data Analysis in SQL](/Certificates/Exploratory%20Data%20Analysis%20in%20SQL.pdf)**<br>
