@@ -77,6 +77,7 @@ The 'Area_PP.py' algorithm were used to calculate the sum and monthly mean value
 **[Data Analyst in SQL](/Certificates/Data_Analyst_in_SQL.pdf)**<br>
 **[Data Analyst in Power BI](/Certificates/Data%20Analyst%20in%20Power%20BI.pdf)**<br>
 **[Power BI Fundamentals](/Certificates/Power%20BI%20Fundamentals.pdf)**<br>
+**[SQL Fundamentals](/Certificates/SQL%20Fundamentals.pdf)**<br>
 **[GIT](/Certificates/Git.pdf)**<br>
 **[Climate Ocean School](/Certificates/Climate%20and%20ocean%20processes.pdf)**<br>
 # Contact information
